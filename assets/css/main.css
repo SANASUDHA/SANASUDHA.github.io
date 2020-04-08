@@ -1031,7 +1031,7 @@
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
-		justify-content: space-between;
+		justify-content: center;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
@@ -1073,11 +1073,36 @@
 	color: #000fff;
 	font-weight: bold;
 }
-.about {
-	align-items: center;
-}
 .ullist {
 	width: 90%;
 	box-shadow: 10px 10px 10px #ddd;
 	background-color: #ffffff;
+}
+.about {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.edu {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.edu1 {
+width: 30%;
+background-color: #ffffff;
+border-top: 3px solid #000fff;
+box-shadow: 0 0 10px #ffffff;
+margin: 1%;
+padding: 3px;
+border-radius: 8px;
+}
+.edu h1 {
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+	color: #000000;
 }
