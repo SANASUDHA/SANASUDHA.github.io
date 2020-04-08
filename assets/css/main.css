@@ -1106,3 +1106,19 @@ border-radius: 8px;
 	font-family: monospace;
 	color: #000000;
 }
+@media only screen and (max-width:768px) {
+	.edu1 {
+	width: 45%;
+}
+}
+@media only screen and (max-width:470px) {
+	.edu h1 {
+		text-align: center;
+		font-weight: 100;
+		font-family: fantasy;
+		color: #000000;
+	}
+	.edu1 {
+	width: 90%;
+}
+}
