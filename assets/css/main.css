@@ -1106,7 +1106,7 @@ border-radius: 8px;
 	font-family: monospace;
 	color: #000000;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:816px) {
 	.edu1 {
 	width: 45%;
 }
