@@ -1114,7 +1114,7 @@ border-radius: 8px;
 @media only screen and (max-width:470px) {
 	.edu h1 {
 		text-align: center;
-		font-weight: 100;
+		font-weight: 100px;
 		font-family: fantasy;
 		color: #000000;
 	}
